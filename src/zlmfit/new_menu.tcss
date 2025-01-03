@@ -1,0 +1,46 @@
+NewMenu {
+  height: auto;
+  align: center bottom;
+}
+
+
+NewMenu Horizontal {
+  height: auto;
+  align: center bottom;
+}
+
+NewMenu HorizontalScroll {
+  height: 3;
+}
+
+NewMenu Button {
+  width: 20;
+  margin: 1;
+}
+
+NewMenu FileSelector {
+  layout: horizontal;
+  align: center middle;
+  padding: 1;
+  background: $panel;
+  height: 1fr;
+}
+
+NewMenu FileSelector Button {
+  min-width: 6;
+  margin: 0;
+  width: 6;
+}
+
+FileSelector #label {
+  align: left middle;
+  height: 3;
+  padding: 1;
+  width: 9;
+}
+
+FileSelector #path {
+  align: left middle;
+  height: 3;
+  padding: 1;
+}

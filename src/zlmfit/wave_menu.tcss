@@ -1,0 +1,96 @@
+WaveMenu {
+  layout: grid;
+  grid-size: 1 2;
+  grid-rows: 1fr auto;
+}
+WaveMenu #toplevel {
+  layout: horizontal;
+  align: center middle;
+}
+
+WaveMenu VerticalScroll {
+  layout: grid;
+  grid-size: 4 3;
+  grid-rows: auto;
+  grid-columns: auto;
+  align: center middle;
+}
+
+WaveMenu VerticalScroll .toplabel {
+  text-align: center;
+  width: 100%;
+  column-span: 2;
+}
+
+WaveMenu VerticalScroll .selectedwavelabel {
+  width: 100%;
+  text-align: right;
+  padding: 0 2;
+}
+
+WaveMenu VerticalScroll .anchorwavelabel {
+  width: 100%;
+  text-align: left;
+  padding: 0 2;
+}
+
+WaveMenu VerticalScroll .swave {
+  background: #8839ef;
+}
+
+WaveMenu VerticalScroll .pwave {
+  background: #1e66f5;
+}
+
+WaveMenu VerticalScroll .dwave {
+  background: #e64553;
+}
+
+WaveMenu VerticalScroll .fwave {
+  background: #40a02b;
+}
+
+WaveMenu VerticalScroll  RadioButton {
+  padding: 1;
+  width: 9;
+  content-align-horizontal: center;
+}
+
+WaveMenu VerticalScroll  Checkbox {
+  width: 17;
+}
+
+WaveMenu VerticalScroll  #pos_anchor {
+  align: center middle;
+  padding: -1 0;
+  layout: vertical;
+  height: 100%;
+  width: auto;
+}
+
+WaveMenu VerticalScroll  #neg_anchor {
+  align: center middle;
+  padding: -1 0;
+  layout: vertical;
+  height: 100%;
+  width: auto;
+}
+
+WaveMenu VerticalScroll  #pos_waves {
+  align: right middle;
+  height: 100%;
+}
+
+WaveMenu VerticalScroll  #neg_waves {
+  align: right middle;
+  height: 100%;
+}
+
+WaveMenu Horizontal {
+  align: center middle;
+}
+
+WaveMenu Button {
+  width: 20;
+  margin: 1;
+}

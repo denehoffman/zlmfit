@@ -1,0 +1,7 @@
+FittingScreen {
+}
+FittingScreen ProgressBar {
+  width: 100%;
+}
+FittingScreen RichLog {
+}
